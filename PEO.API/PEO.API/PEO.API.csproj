@@ -81,6 +81,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PEO.BO\PEO.BO.csproj">
+      <Project>{c3ad1fc8-d030-4ed3-b4e1-959c5e135928}</Project>
+      <Name>PEO.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PEO.EN\PEO.EN.csproj">
+      <Project>{1a287ca2-0424-4ffa-a2c2-073a1d4fe573}</Project>
+      <Name>PEO.EN</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
